@@ -1,0 +1,12 @@
+
+<input [(ngModel)]="name" type="text">
+<input [(ngModel)]="pass" type="password">
+<input [(ngModel)]="email" type="text">
+<input [(ngModel)]="phone" type="text">
+
+<button (click)="submitForm()" [disabled]="!generatedForm.valid">SUBMIT</button>
+<hr>
+
+<!-- <button (click)="printVal()">LOG</button> -->
+<button (click)="setVal()">CHANGE</button>
+<button (click)="testFunc()">TEST</button>
